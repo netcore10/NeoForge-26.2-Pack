@@ -566,7 +566,7 @@ metafile = true
 
 [[files]]
 file = "mods/connector-compat-patch.pw.toml"
-hash = "27859dbc02b41765944bef424ef403f2c99d2ff7da8eb09f1f62a559661e3162"
+hash = "b131d274f433369cd051fc58ecb89cd36c457e01c7199b7cbda459baea71a21d"
 metafile = true
 
 [[files]]
@@ -897,10 +897,6 @@ metafile = true
 file = "mods/yeetus-experimentus.pw.toml"
 hash = "4ea3d8c6cd6d1f7b8fc3a89f004f8118ed73e316cffbce1efc510d76989bd07c"
 metafile = true
-
-[[files]]
-file = "resourcepacks/Automobility-3D-Icons.zip"
-hash = "5c7c2e731b6e2fbef778fa821b3998289418d30d809b62845fc43f888c59689f"
 
 [[files]]
 file = "resourcepacks/haywen-resources.pw.toml"
