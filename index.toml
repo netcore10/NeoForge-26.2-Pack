@@ -566,7 +566,7 @@ metafile = true
 
 [[files]]
 file = "mods/connector-compat-patch.pw.toml"
-hash = "605a6c941de8ec080a969723c293e030006e9b2159201742be663c983361e36a"
+hash = "7dc8f6f2cb7049b58928c4cc7020483327e1bde4fba7143405fd6d1a6074d1e5"
 metafile = true
 
 [[files]]
