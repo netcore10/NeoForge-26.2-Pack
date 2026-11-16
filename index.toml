@@ -566,7 +566,7 @@ metafile = true
 
 [[files]]
 file = "mods/connector-compat-patch.pw.toml"
-hash = "b131d274f433369cd051fc58ecb89cd36c457e01c7199b7cbda459baea71a21d"
+hash = "1d95414c4076055af0b7280a3641b7e4088ca85f92d1c7962338836568677729"
 metafile = true
 
 [[files]]
@@ -666,7 +666,7 @@ metafile = true
 
 [[files]]
 file = "mods/create_hypertube-0.6.0+fly-NEOFORGE-CREATEFLY.jar"
-hash = "24b476d25b00fe91bba92c3dfe511d59961158af8abbca87f28dfa8c9dffe4bb"
+hash = "2ac6067bd625a162868b081577ab94653feffb848a362478ea1680c6a2f1b4be"
 
 [[files]]
 file = "mods/custom-player-models.pw.toml"

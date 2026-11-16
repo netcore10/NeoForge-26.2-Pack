@@ -1,8 +1,8 @@
 name = "Connector Compat Patch"
-filename = "connector-compat-patch-1.0.3.jar"
+filename = "connector-compat-patch-1.0.4.jar"
 side = "both"
 
 [download]
-url = "https://github.com/netcore10/ConnectorCompatPatch/releases/download/v1.0.3/connector-compat-patch-1.0.3.jar"
+url = "https://github.com/netcore10/ConnectorCompatPatch/releases/download/v1.0.4/connector-compat-patch-1.0.4.jar"
 hash-format = "sha256"
-hash = "b4e7547daf35727b4229d81f68ea859dfbf46a24afb27979bd02ec6ab074cc8c"
+hash = "4ee52f3e7c56bea374656351414c5ab70f3536a19aefe23bc976d6b64eeee089"
