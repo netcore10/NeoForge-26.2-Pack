@@ -1,0 +1,13 @@
+name = "Automobility: Unofficial Port"
+filename = "automobility-1.3.1+26.2-fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/B6d5S1wQ/versions/Ijg2qqVg/automobility-1.3.1%2B26.2-fabric.jar"
+hash-format = "sha512"
+hash = "66c1e7263b75f7704f2fdf23894621efec1ea080c667d4cbb139f463cf0fa5f60c70fefcf88c8906909496fa2cb9d1e65fcb971fbb49fc230a9df93283a031c7"
+
+[update]
+[update.modrinth]
+mod-id = "B6d5S1wQ"
+version = "Ijg2qqVg"

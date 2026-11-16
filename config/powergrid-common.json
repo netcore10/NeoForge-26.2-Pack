@@ -1,0 +1,21 @@
+{
+  "lotsOfLogs": {
+    "comment": "Enables extensive logging in different segments of the mod (can cause larger log files and log spam)",
+    "value": false
+  },
+  "fullStateSynchronizationInterval": {
+    "comment": [
+      "Periodic state synchronization sent by the server. This option makes sure that the clients are always close to the server simulation state, it will send the NBT data of all block entities in an electrical network to all clients (0 = disabled)",
+      "Default: 100",
+      "Range: > 0"
+    ],
+    "value": 100
+  },
+  "syncWithDoubles": {
+    "comment": "Synchronize network with double precision numbers (this will double the amount of data that needs to be sent)",
+    "value": true
+  },
+  "allocateUnpooledBuffers": {
+    "value": false
+  }
+}

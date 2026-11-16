@@ -1,0 +1,13 @@
+name = "BetterNether"
+filename = "better-nether-26.201.6.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/MpzVLzy5/versions/hXVwdEEx/better-nether-26.201.6.jar"
+hash-format = "sha512"
+hash = "73bfd02ccbfb126ade808dca0a2b1629c4127346667b8495fdcd588e44a8acb39ac4bed5c493f9dfa9c9968658b4639f1ad760a48c51a75fda4cf28642df6355"
+
+[update]
+[update.modrinth]
+mod-id = "MpzVLzy5"
+version = "hXVwdEEx"

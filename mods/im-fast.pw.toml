@@ -1,0 +1,13 @@
+name = "I'm Fast"
+filename = "imfast-NEOFORGE-26.2-1.0.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/PaUMOeP0/versions/Hu3Yov2Y/imfast-NEOFORGE-26.2-1.0.3.jar"
+hash-format = "sha512"
+hash = "01280a82eb092551d996d60b6520e84849c1f79812fce689119276fa9fa7118e976f07bc244f94bb54f16d9c354ba10590dec699e6d5c10c271484bead0b8c06"
+
+[update]
+[update.modrinth]
+mod-id = "PaUMOeP0"
+version = "Hu3Yov2Y"

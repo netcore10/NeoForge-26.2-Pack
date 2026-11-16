@@ -1,0 +1,39 @@
+{
+  "configVersion": 2,
+  "consumptionPreset": "survival",
+  "survivalConsumptionMultiplier": 50.0,
+  "consumptionMlPerBlock": 0.075,
+  "occupiedIdleMlPerTick": 0.015,
+  "gasolineConsumptionMultiplier": 1.0,
+  "dieselConsumptionMultiplier": 0.9,
+  "gasolineIdleMultiplier": 1.0,
+  "dieselIdleMultiplier": 0.8,
+  "torqueConsumptionStrength": 0.2,
+  "frameWeightConsumptionStrength": 0.25,
+  "extraPassengerConsumption": 0.05,
+  "poweredInputConsumptionMultiplier": 1.12,
+  "boostConsumptionMultiplier": 1.65,
+  "speedConsumptionBase": 0.95,
+  "speedConsumptionStrength": 0.15,
+  "maximumSpeedConsumptionMultiplier": 1.6,
+  "starterReserveMl": 0,
+  "pumpReachBlocks": 6.0,
+  "pumpHoseSelectionTimeoutSeconds": 45,
+  "canFlowMlPerSecond": 5000,
+  "pumpFlowMlPerSecond": 10000,
+  "engineFuel": {
+    "automobility:engine/stone": "gasoline",
+    "automobility:engine/copper": "gasoline",
+    "automobility:engine/gold": "gasoline",
+    "automobility:engine/iron": "diesel",
+    "automobility:engine/diamond": "diesel",
+    "automobility:engine/creative": "none"
+  },
+  "engineCapacityMl": {
+    "automobility:engine/stone": 45000,
+    "automobility:engine/copper": 45000,
+    "automobility:engine/gold": 50000,
+    "automobility:engine/iron": 60000,
+    "automobility:engine/diamond": 70000
+  }
+}

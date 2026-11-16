@@ -1,0 +1,13 @@
+name = "Create Fly: Bells & Whistles (Unofficial Port)"
+filename = "BellsAndWhistles-0.4.7+fly-mc26.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/uIZsYYiH/versions/AUhNAUBb/BellsAndWhistles-0.4.7%2Bfly-mc26.2.jar"
+hash-format = "sha512"
+hash = "621684ee096d1b62ec7e3e02d078838409f990ed71124c8e150616cd60048c5e2d698b8656a3d7a1f1480094801d2ccef1e24250b3fb8859fdcae2968071df14"
+
+[update]
+[update.modrinth]
+mod-id = "uIZsYYiH"
+version = "AUhNAUBb"

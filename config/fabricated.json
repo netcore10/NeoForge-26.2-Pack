@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "onEntrypointFailure": "error",
+  "strictDependencies": false,
+  "strictLinkage": false,
+  "cache": {
+    "enabled": true,
+    "verifyIntegrity": true,
+    "maxUnusedLaunches": 5
+  },
+  "limits": {
+    "maxJarBytes": 268435456,
+    "maxEntryBytes": 134217728,
+    "maxTotalUncompressedBytes": 536870912,
+    "maxEntries": 65536,
+    "maxCompressionRatio": 100,
+    "maxNestingDepth": 8
+  },
+  "mods": {},
+  "mojangMappingsPath": null
+}

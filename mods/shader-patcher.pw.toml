@@ -1,0 +1,13 @@
+name = "Shader Patcher"
+filename = "ShaderPatcher-NeoForge 26.1-0.4.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/uzJeRux8/versions/FqtPYgul/ShaderPatcher-NeoForge%2026.1-0.4.jar"
+hash-format = "sha512"
+hash = "7f9ca1654df94b37b25f8e2291c755fdf506147d58cb8c729127172829f49156ae09e1141f2b5d3bab27adb8de904dc29946d6891276a264e18698078d097fcc"
+
+[update]
+[update.modrinth]
+mod-id = "uzJeRux8"
+version = "FqtPYgul"

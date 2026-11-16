@@ -1,0 +1,13 @@
+name = "Pumps & Pistons"
+filename = "pumps-and-pistons-1.11.1+26.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/HXrsHGrT/versions/SNc37toD/pumps-and-pistons-1.11.1%2B26.2.jar"
+hash-format = "sha512"
+hash = "38a1eb6675618d5a609c45ee5e5930bf9284cd35247aa00bf0a5c0f7abfa82e07f7ea9fe813c40e53603c582ad8d1b118a078642eeb997dac0100cc745aec8d0"
+
+[update]
+[update.modrinth]
+mod-id = "HXrsHGrT"
+version = "SNc37toD"

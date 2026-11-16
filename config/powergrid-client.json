@@ -1,0 +1,165 @@
+{
+  "crtRed": {
+    "comment": [
+      "Amount of red in the CRT screen glow",
+      "Default: 64",
+      "Range: 0 ~ 255"
+    ],
+    "value": 64
+  },
+  "crtGreen": {
+    "comment": [
+      "Amount of green in the CRT screen glow",
+      "Default: 4",
+      "Range: 0 ~ 255"
+    ],
+    "value": 4
+  },
+  "crtBlue": {
+    "comment": [
+      "Amount of blue in the CRT screen glow",
+      "Default: 2",
+      "Range: 0 ~ 255"
+    ],
+    "value": 2
+  },
+  "crtPointCount": {
+    "comment": [
+      "Controls how many individual points the CRT trace can have (1 point is added per tick)",
+      "Default: 100",
+      "Range: > 10"
+    ],
+    "value": 100
+  },
+  "crtTracePersistence": {
+    "comment": [
+      "Controls the slope of trace brightness decay (lower value means faster decay)",
+      "Default: 0.025",
+      "Range: 0.0 ~ 3.4028235E38"
+    ],
+    "value": 0.025
+  },
+  "crtDotSize": {
+    "comment": [
+      "Controls the CRT trace thickness",
+      "Default: 0.03125",
+      "Range: 0.0 ~ 3.4028235E38"
+    ],
+    "value": 0.03125
+  },
+  "crtZDepth": {
+    "comment": [
+      "Controls how much the CRT trace falls as it fades. This values shouldn't be too small or it can cause Z fighting",
+      "Default: 1.0E-4",
+      "Range: 0.0 ~ 3.4028235E38"
+    ],
+    "value": 1.0E-4
+  },
+  "wireLOD": {
+    "comment": "Enable decreased level of detail rendering of far away wires",
+    "value": true
+  },
+  "hummingSoundMultiplier": {
+    "comment": [
+      "Multiplier for all humming ambient sounds",
+      "Default: 1.0",
+      "Range: 0.0 ~ 3.4028235E38"
+    ],
+    "value": 1.0
+  },
+  "generatorSoundMultiplier": {
+    "comment": [
+      "Multiplier for generator ambient sound",
+      "Default: 1.0",
+      "Range: 0.0 ~ 3.4028235E38"
+    ],
+    "value": 1.0
+  },
+  "Circuit Design Table": {
+    "comment": "Circuit editor stuff",
+    "HighContrastTraces": {
+      "comment": "Higher contrast between traces in the circuit editor",
+      "value": false
+    },
+    "traceRedTop": {
+      "comment": [
+        "Amount of red in traces",
+        "Default: 255",
+        "Range: 0 ~ 255"
+      ],
+      "value": 255
+    },
+    "traceGreenTop": {
+      "comment": [
+        "Amount of green in traces",
+        "Default: 255",
+        "Range: 0 ~ 255"
+      ],
+      "value": 255
+    },
+    "traceBlueTop": {
+      "comment": [
+        "Amount of blue in traces",
+        "Default: 255",
+        "Range: 0 ~ 255"
+      ],
+      "value": 255
+    },
+    "traceAlphaTop": {
+      "comment": [
+        "Amount of alpha in traces",
+        "Default: 255",
+        "Range: 0 ~ 255"
+      ],
+      "value": 255
+    },
+    "traceAlphaTopBehind": {
+      "comment": [
+        "Amount of alpha in traces",
+        "Default: 128",
+        "Range: 0 ~ 255"
+      ],
+      "value": 128
+    },
+    "traceRedBottom": {
+      "comment": [
+        "Amount of red in traces",
+        "Default: 255",
+        "Range: 0 ~ 255"
+      ],
+      "value": 255
+    },
+    "traceGreenBottom": {
+      "comment": [
+        "Amount of green in traces",
+        "Default: 255",
+        "Range: 0 ~ 255"
+      ],
+      "value": 255
+    },
+    "traceBlueBottom": {
+      "comment": [
+        "Amount of blue in traces",
+        "Default: 255",
+        "Range: 0 ~ 255"
+      ],
+      "value": 255
+    },
+    "traceAlphaBottom": {
+      "comment": [
+        "Amount of alpha in traces on the back",
+        "Default: 255",
+        "Range: 0 ~ 255"
+      ],
+      "value": 255
+    },
+    "traceAlphaBottomBehind": {
+      "comment": [
+        "Amount of alpha in traces on the back",
+        "Default: 128",
+        "Range: 0 ~ 255"
+      ],
+      "value": 128
+    }
+  }
+}

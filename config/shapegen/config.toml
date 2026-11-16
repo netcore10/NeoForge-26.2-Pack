@@ -1,0 +1,13 @@
+# Don't change this! Version used to track needed updates.
+version = 1
+generatePanels = true
+generateSteps = true
+generatePoles = true
+slabs = [  ]
+generateSlabs = false
+generateStairs = false
+blocks = [  ]
+rebalancedBlockRecipes = true
+improvedStonecutter = true
+missingBlockRecovery = true
+performanceLogging = false

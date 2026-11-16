@@ -1,0 +1,13 @@
+name = "FSit Continued"
+filename = "fsit-4.0.0-alpha.1+mc26.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/dF99Qv0b/versions/bkam8tgo/fsit-4.0.0-alpha.1%2Bmc26.2.jar"
+hash-format = "sha512"
+hash = "0472f4fabfa54fa0cc96e05339e804b04178fadab703ad4dc7836ceea840e6e7a09b3202d6ae486cf77f8ca8f9b810ad32469dab70cfc9caf87bb9e906438475"
+
+[update]
+[update.modrinth]
+mod-id = "dF99Qv0b"
+version = "bkam8tgo"

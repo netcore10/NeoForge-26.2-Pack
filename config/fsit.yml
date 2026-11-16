@@ -1,0 +1,53 @@
+# FSit configuration. Do not edit `version` by hand.
+# On a dedicated server: `/fsit reload` re-reads this file.
+# On the client: reloading local config requires a game restart.
+version: 2
+use-server-config: false
+# Sitting: /sit, double sneak, the sit key binding and clicking blocks (e.g. slabs, stairs).
+# enabled is the server-wide switch for all of them (ops: `/fsit set sitting on|off`);
+# riding, crawling and laying are not affected.
+# Sitting by right-clicking blocks is also OFF by default for every player
+# and is opted into individually with `/fsit blocksit on`.
+sitting:
+  enabled: true
+  behavior: moveable
+  centered: false
+  blocks:
+  - '#minecraft:slabs'
+  - '#minecraft:stairs'
+  - '#minecraft:logs'
+  - '#minecraft:fences'
+  - '#minecraft:walls'
+# Riding other players (interact with a player to sit on their head).
+# teleport-mode is server-wide (ops only). Possible values:
+#   vanilla   -> let teleports happen as-is (passengers ride along same-dim,
+#                stay behind on cross-dim — and may crash without 'enhanced')
+#   disabled  -> drop passengers before any teleport
+#   enhanced  -> carry passengers along, including across dimensions (recommended)
+riding:
+  enabled: true
+  max-yaw-difference: 180
+  teleport-mode: enhanced
+  # Riding non-player mobs (interact with an empty hand, like riding players). Off by default.
+  # Vanilla interactions (trading, taming, saddles, milking, ...) always take precedence.
+  # allowed: entity type ids or #tags players may ride, e.g. minecraft:cow or #minecraft:skeletons.
+  # Ops can edit both with `/fsit mobs on|off|add|remove|list`.
+  mobs:
+    enabled: false
+    allowed: []
+# Double-sneak shortcuts for entering sit/crawl poses.
+sneak-activation:
+  enabled: true
+  window-ticks: 10
+  min-pitch-down: 60
+  prefer-crawl-in-tight-space: true
+# Commands.
+#   true       -> enabled with default name
+#   false      -> command is not registered
+#   "name"     -> enabled with a custom name (e.g. lay: sleep)
+# A server restart is required for command changes to take effect.
+commands:
+  root: true
+  sit: true
+  crawl: true
+  lay: true

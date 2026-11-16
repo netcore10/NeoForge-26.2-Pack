@@ -1,0 +1,37 @@
+{
+  "capacities": {
+    "comment": "Capacities",
+    "tool_capacity": {
+      "comment": [
+        "Capacity of tools requiring fluids, in mB.",
+        "Default: 200",
+        "Range: > 0"
+      ],
+      "value": 200
+    },
+    "tool_capacity_enchantment": {
+      "comment": [
+        "Capacity added to tools by the Capacity enchantment, in mB.",
+        "Default: 100",
+        "Range: > 0"
+      ],
+      "value": 100
+    },
+    "canister_capacity": {
+      "comment": [
+        "Canister capacity, in mB.",
+        "Default: 4000",
+        "Range: > 0"
+      ],
+      "value": 4000
+    },
+    "canister_capacity_enchantment": {
+      "comment": [
+        "Capacity added to Canisters by the Capacity enchantment, in mB.",
+        "Default: 1000",
+        "Range: > 0"
+      ],
+      "value": 1000
+    }
+  }
+}

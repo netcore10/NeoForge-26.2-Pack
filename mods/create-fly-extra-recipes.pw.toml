@@ -1,0 +1,13 @@
+name = "Create Fly: Extra Recipes"
+filename = "extrarecipes-26.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/75fG7IoZ/versions/5Vo3e0PH/extrarecipes-26.2.jar"
+hash-format = "sha512"
+hash = "b6213785360f3a2aeeb0a157408fc9a261d2cd1f8a441c73cef40696fae79c05aa22f1b92d4cc68569b8402f926587338f84a951842ddca9becd7f4bc85c0068"
+
+[update]
+[update.modrinth]
+mod-id = "75fG7IoZ"
+version = "5Vo3e0PH"

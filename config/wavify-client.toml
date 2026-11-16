@@ -1,0 +1,109 @@
+#One-click quality. Sets chunk radius, river wave radius and density, and effects amount. Changing any of those by hand switches this to CUSTOM.
+#Allowed Values: PERFORMANCE, BALANCED, FANCY, ULTRA, CUSTOM
+quality = "BALANCED"
+#Quietly spawns fewer waves and effects while your FPS is low and Wavify is part of the reason.
+autoPerformance = true
+
+[waves]
+	#Master toggle for ocean and beach (shoreline) waves.
+	enableOceanWaves = true
+	#Chunk radius around the player that is considered for wave spawning.
+	# Default: 5
+	# Range: 3 ~ 16
+	chunkRadius = 5
+	#How many block updates a chunk can receive before being rescanned.
+	# Default: 50
+	# Range: 1 ~ 1024
+	chunkUpdatesRescanAmount = 50
+	#How many blocks from shore waves try to spawn.
+	# Default: 8
+	# Range: 4 ~ 32
+	spawnDistance = 8
+	#How much rain and thunderstorms whip up the waves. 0 = weather has no effect.
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	weatherIntensity = 1.0
+
+[appearance]
+	#Opacity of the colored wave body. Lower it to see through the waves.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	waveOpacity = 1.0
+	#Opacity of the white foam on top of the waves.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	foamOpacity = 1.0
+	#Whether wave tinting uses biome water colors or the custom color below.
+	#Allowed Values: BIOME, CUSTOM
+	colorSource = "BIOME"
+	#Custom wave color when Color Source is set to CUSTOM.
+	# Default: 4159204
+	# Range: 0 ~ 16777215
+	customColor = 4159204
+	#Comma-separated biome=color overrides. Use a biome id or a #tag, for example minecraft:lukewarm_ocean=3F76E4,#c:is_cold=3D57D6. Ids win over tags.
+	biomeColorOverrides = ""
+	#Moves ocean and shoreline waves up or down. Negative = lower, closer to the water.
+	# Default: 0.0
+	# Range: -1.0 ~ 1.0
+	waveYOffset = 0.0
+	#Extra downward offset applied to the wave body while shaders are active.
+	# Default: -0.3
+	# Range: -0.5 ~ 0.5
+	shaderWaveYSink = -0.3
+	#Uses a tested wave offset for known shader packs (Complementary, BSL, Sildur's, MakeUp, Bliss, Photon, Solas, Rethinking Voxels). Unknown packs use Shader Wave Y Sink.
+	autoShaderOffsets = true
+	#Darkens the ground where a wave washes up, as if the sand got wet. Turn off to disable the effect entirely.
+	enableWetOverlay = true
+	#How many ticks wet sand takes to dry after a wave leaves it. 0 = dries instantly.
+	# Default: 100
+	# Range: 0 ~ 400
+	wetSandDryTime = 100
+	#Makes ocean waves glow at full brightness on full moon nights.
+	fullMoonGlow = false
+
+[rivers]
+	#Master toggle for river waves.
+	enableRiverWaves = true
+	#How river waves look. CREST = curved crests, STREAKS = thin foam lines along the current, SWELL = soft wide bands, RAPIDS = choppy whitewater, AUTO = picks per spot from river width, depth and current.
+	#Allowed Values: AUTO, CREST, STREAKS, SWELL, RAPIDS
+	riverWaveStyle = "CREST"
+	#Radius (in blocks) around the player within which river waves are spawned. Larger = waves appear further away, smaller = they only appear close by.
+	# Default: 56
+	# Range: 16 ~ 128
+	riverWaveSpawnRadius = 56
+	#River wave density - roughly how many river waves appear per 100 river water blocks near you.
+	# Default: 4.0
+	# Range: 0.0 ~ 20.0
+	riverWaveDensity = 4.0
+	#How far (in blocks) a river wave travels down the channel before fading out.
+	# Default: 18
+	# Range: 4 ~ 48
+	riverWaveTravelBlocks = 18
+	#Moves river waves up or down. Negative = lower, closer to the water.
+	# Default: 0.0
+	# Range: -1.0 ~ 1.0
+	riverWaveYOffset = 0.0
+
+[effects]
+	#How many ripples, wakes, mist and slush pieces get spawned. 0 = none.
+	# Default: 1.0
+	# Range: 0.0 ~ 2.0
+	effectsAmount = 1.0
+	#V-shaped foam trails behind moving boats, plus spray at the bow.
+	boatWakes = true
+	#Ripple rings around players and mobs wading, swimming or landing in water.
+	entityRipples = true
+	#Mist, spray and foam rings where falling water lands.
+	waterfallMist = true
+	#Little rings on the water surface while it rains.
+	rainRipples = true
+	#Waves fade out at ice, and snowy oceans get floating slush instead of surf.
+	iceAndSlush = true
+
+[sounds]
+	#Enables the ambient ocean and river sound loops.
+	enableWaveSounds = true
+	#Master volume multiplier for ambient wave loops.
+	# Default: 1.0
+	# Range: 0.0 ~ 1.0
+	waveSoundVolume = 1.0

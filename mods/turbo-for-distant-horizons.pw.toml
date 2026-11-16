@@ -1,0 +1,13 @@
+name = "Turbo for Distant Horizons"
+filename = "dhturbo-neoforge-26.2-1.6.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/hPK04GEA/versions/NwaPwjFR/dhturbo-neoforge-26.2-1.6.0.jar"
+hash-format = "sha512"
+hash = "fbe00ad84c2e922b1dedf6b49bbe803590f04cf4771fb10e3d46e70c9991979998a203611f55fc132981a4f1f009df60587ade599756cf2ce8d32268f4adf599"
+
+[update]
+[update.modrinth]
+mod-id = "hPK04GEA"
+version = "NwaPwjFR"

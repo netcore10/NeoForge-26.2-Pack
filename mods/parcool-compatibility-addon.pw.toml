@@ -1,0 +1,8 @@
+name = "ParCool Compatibility Addon"
+filename = "ParCool-CompatibilityAddon-26.2-3.4.3.3-1.2.1.jar"
+side = "both"
+
+[download]
+url = "https://github.com/netcore10/ParCool-CompatibilityAddon-NeoForge/releases/download/v1.2.1/ParCool-CompatibilityAddon-26.2-3.4.3.3-1.2.1.jar"
+hash-format = "sha256"
+hash = "0c3f5a91c8433837c8832936760ad77adc016e3855c2ad03cae363d83d8c6ed9"

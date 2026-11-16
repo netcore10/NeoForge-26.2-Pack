@@ -1,0 +1,13 @@
+name = "Create Fly: Recipe Viewer"
+filename = "CreateReiViewer-1.0.3+fly-mc26.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/vMOBLOfr/versions/eVEDBrI1/CreateReiViewer-1.0.3%2Bfly-mc26.2.jar"
+hash-format = "sha512"
+hash = "ac2dfae54c89e0ca325d8a9e5f7066889ae08e619136481f74c1a0e34d2ee87aceb779896e2472d6b7add482c978f598cfeb9628d4ffa705701ac1f8baecbf23"
+
+[update]
+[update.modrinth]
+mod-id = "vMOBLOfr"
+version = "eVEDBrI1"

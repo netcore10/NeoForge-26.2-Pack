@@ -1,0 +1,5 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"automobility:automobile","components":"{\"automobility:automobile_data\":{engine:\"automobility:stone\",frame:\"automobility:wooden_motorcar\",light_mode:3,prefab_id:\"automobility:wooden_motorcar\",wheels:\"automobility:carriage\"},\"minecraft:item_name\":{translate:\"prefab.automobility.wooden_motorcar\"}}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"create_hypertube:hypertube"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]

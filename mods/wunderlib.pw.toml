@@ -1,0 +1,13 @@
+name = "WunderLib"
+filename = "wunderlib-26.201.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/8O0Adq7w/versions/teACYvoS/wunderlib-26.201.2.jar"
+hash-format = "sha512"
+hash = "7ee7d0e8bf30441acafac17ebad66630679e7f288a93eaed823e327807414aa18b59a5fedf114d9af7abf6a4c6772fe33b7958d1e8e9c33ad33693d3c8744f0f"
+
+[update]
+[update.modrinth]
+mod-id = "8O0Adq7w"
+version = "teACYvoS"

@@ -1,0 +1,109 @@
+{
+  "compatabilityOptions": {
+    "comment": "Options to help improve the behaviour of Bits 'n' Bobs alongside other mods. (Opt-in)",
+    "suppressExternalWoodenCogwheels": {
+      "comment": "Suppresses wooden cogwheels from other mods in favour of Bits 'n' Bobs' behaviour system. Intended for Create: Encased but may work with other mods with proper tags.",
+      "value": true
+    }
+  },
+  "featureFlags": {
+    "comment": "Feature flags to enable or disable certain features of the mod.",
+    "blocks": {
+      "comment": "Block feature toggles.",
+      "flangedChainDrives": {
+        "comment": "Ability for the player to create chain drives using the flanged gear cogwheels.",
+        "value": true
+      },
+      "chainPulley": {
+        "comment": "Availability of the Chain Pulley block.",
+        "value": true
+      },
+      "flywheelBearing": {
+        "comment": "Availability of the Flywheel Bearing block.",
+        "value": true
+      },
+      "weatheredGirder": {
+        "comment": "Availability of the weathered girder block.",
+        "value": true
+      },
+      "girderStrut": {
+        "comment": "Availability of the girder strut blocks.",
+        "value": true
+      },
+      "nixieBoard": {
+        "comment": "Availability of Nixie Board block.",
+        "value": true
+      },
+      "largeNixieTube": {
+        "comment": "Availability of Large Nixie Tube block.",
+        "value": true
+      },
+      "lightbulb": {
+        "comment": "Availability of the Lightbulb block.",
+        "value": true
+      },
+      "brassLamp": {
+        "comment": "Availability of the Brass Lamp block. (Legacy)",
+        "value": false
+      },
+      "headlamp": {
+        "comment": "Availability of the Headlamp block.",
+        "value": true
+      },
+      "chairs": {
+        "comment": "Availability of the Chair blocks.",
+        "value": true
+      },
+      "tiles": {
+        "comment": "Availability of the tile decoration blocks.",
+        "value": true
+      },
+      "industrialGrating": {
+        "comment": "Availability of the industrial grating blocks.",
+        "value": true
+      },
+      "industrialTruss": {
+        "comment": "Availability of the industrial truss blocks.",
+        "value": true
+      },
+      "cogwheelChainCarriage": {
+        "comment": "Availability of the Cogwheel Chain Carriage block.",
+        "value": true
+      },
+      "cableGirderStrut": {
+        "comment": "Availability of the Cable Girder Strut block.",
+        "value": true
+      },
+      "weatheredMetalBracket": {
+        "comment": "Availability of the Weathered Metal Bracket block.",
+        "value": true
+      },
+      "industrialIronEncasing": {
+        "comment": "Availability of the Industrial Iron encased block variants.",
+        "value": true
+      },
+      "weatheredIronEncasing": {
+        "comment": "Availability of the Weathered Iron encased block variants.",
+        "value": true
+      }
+    },
+    "items": {
+      "comment": "Item feature toggles."
+    },
+    "behaviours": {
+      "comment": "Behaviour feature toggles.",
+      "undedicatedCogwheelChainDrives": {
+        "comment": "Ability for the player to create chain drives on components that are not dedicated for chains (i.e. not flanged)",
+        "value": true
+      },
+      "dyeablePipes": {
+        "comment": "Ability to dye fluid pipes.",
+        "value": true
+      },
+      "dyeableTanks": {
+        "comment": "Ability to dye fluid tanks.",
+        "value": true
+      }
+    }
+  }
+}

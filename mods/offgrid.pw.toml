@@ -1,0 +1,13 @@
+name = "Offgrid"
+filename = "offgrid-neoforge-1.0.6+26.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/vvgTqF0n/versions/QJaS2iia/offgrid-neoforge-1.0.6%2B26.2.jar"
+hash-format = "sha512"
+hash = "074951196766b1dc6cb0b5d2f01c15463d94963754d708085271bb3c44033a1cc3a64037101e6a3b7fb1e6e0d3109c80824f143ebf6c49d4738246a9c438d7b4"
+
+[update]
+[update.modrinth]
+mod-id = "vvgTqF0n"
+version = "QJaS2iia"

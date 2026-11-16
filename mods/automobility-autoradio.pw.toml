@@ -1,0 +1,13 @@
+name = "Automobility: Autoradio"
+filename = "automobility-autoradio-1.1.1+26.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/jeo3EZFJ/versions/UiSRr227/automobility-autoradio-1.1.1%2B26.2.jar"
+hash-format = "sha512"
+hash = "9501ba8a131726e5b9bba00a728b736f6a975b9efd207bd13a026b060f122493a36817c80e4a5a5e66b6d393cd0efd4db8b7610ca01df87bc7d98fd42469b673"
+
+[update]
+[update.modrinth]
+mod-id = "jeo3EZFJ"
+version = "UiSRr227"

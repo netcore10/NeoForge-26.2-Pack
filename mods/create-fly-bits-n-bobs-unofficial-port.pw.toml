@@ -1,0 +1,13 @@
+name = "Create Fly: Bits 'n' Bobs"
+filename = "CreateBitsnBobs-2.3.5.3+fly-mc26.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/89B8utMl/versions/ZKUGYO82/CreateBitsnBobs-2.3.5.3%2Bfly-mc26.2.jar"
+hash-format = "sha512"
+hash = "d97d2d4d69b03d906579a0ed95b640ebe18f52edd705972b319a2b7e7b3d382cd8785691fcbd319da07ef07bd2cfd03e340f0d45c6656033c591686085f80e1f"
+
+[update]
+[update.modrinth]
+mod-id = "89B8utMl"
+version = "ZKUGYO82"

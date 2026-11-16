@@ -1,0 +1,13 @@
+name = "Exposure Port"
+filename = "exposure-fabric-26.2-1.9.28-beta.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/8ZJB2W0a/versions/8by3vig0/exposure-fabric-26.2-1.9.28-beta.1.jar"
+hash-format = "sha512"
+hash = "157da7cfbf48e858923c334362abce19f0e1f156fddccc18bfb4af9a92fe9db009141ace100f10bc5f973f2693594fa5512bb1ef09cc267bbf3f7fb4c12edd53"
+
+[update]
+[update.modrinth]
+mod-id = "8ZJB2W0a"
+version = "8by3vig0"

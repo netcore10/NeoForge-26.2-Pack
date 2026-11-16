@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "vehicleVolume": 0.82,
+  "portableVolume": 0.82,
+  "wheelAnimations": true,
+  "listenerVolume": 1.0,
+  "nearbyVolume": 1.0,
+  "preferCabin": false,
+  "normalizeCustomVolume": false,
+  "mutedSources": []
+}

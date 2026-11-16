@@ -1,0 +1,17 @@
+{
+  "tooltips": {
+    "comment": "Tooltips",
+    "fuel_tooltips": {
+      "comment": "Fuel type tooltip on buckets.",
+      "value": true
+    },
+    "diesel_engine_in_recipe_viewer": {
+      "comment": "Whether Diesel Engines are shown in the recipe viewer.",
+      "value": true
+    },
+    "engines_emit_sound_on_trains": {
+      "comment": "Diesel Engines emit sounds on trains.",
+      "value": true
+    }
+  }
+}

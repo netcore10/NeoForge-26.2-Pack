@@ -1,0 +1,13 @@
+name = "DNDLN's Automobility Hitboxes Fix"
+filename = "dndlns_automobility_hitboxes_fix-1.6.4-neoforge-26.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ALwD0eAW/versions/VY61EhM6/dndlns_automobility_hitboxes_fix-1.6.4-neoforge-26.2.jar"
+hash-format = "sha512"
+hash = "a8328093d4830e10ce287c2372d51c129198612fd3a3e1fcd52950f7eaa4226ec90718ac4e20f40ff846a2634d0089b46cba5879f060afc4ec35e5da67c7d9d3"
+
+[update]
+[update.modrinth]
+mod-id = "ALwD0eAW"
+version = "VY61EhM6"

@@ -1,0 +1,139 @@
+{
+  "diesel_engines": {
+    "comment": "Diesel Engines",
+    "turbocharged_engine_speed_multiplier": {
+      "comment": [
+        "Turbocharged Diesel Engine speed multiplier.",
+        "Default: 2.0",
+        "Range: 0.0 ~ 3.4028235E38"
+      ],
+      "value": 2.0
+    },
+    "turbocharged_engine_burn_rate_multiplier": {
+      "comment": [
+        "Turbocharged Diesel Engine burn rate multiplier.",
+        "Default: 1.0",
+        "Range: 0.0 ~ 3.4028235E38"
+      ],
+      "value": 1.0
+    },
+    "normal_diesel_engines": {
+      "comment": "Whether Normal Diesel Engines are enabled.",
+      "value": true
+    },
+    "modular_diesel_engines": {
+      "comment": "Whether Modular Diesel Engines are enabled.",
+      "value": true
+    },
+    "huge_diesel_engines": {
+      "comment": "Whether Huge Diesel Engines are enabled.",
+      "value": true
+    },
+    "engines_filled_with_a_bucket": {
+      "comment": "Whether Diesel Engines can be filled with an item.",
+      "value": false
+    },
+    "engines_disabled_with_redstone": {
+      "comment": "Whether Diesel Engines can be disabled with redstone.",
+      "value": true
+    },
+    "engines_controlled_by_analog_lever": {
+      "comment": "Whether Diesel Engines can be controlled with an analog lever.",
+      "value": true
+    }
+  },
+  "oil": {
+    "comment": "Oil",
+    "infinite_oil_chunk_threshold": {
+      "comment": [
+        "Infinite oil chunk threshold.",
+        "Default: 10000000",
+        "Range: > 0"
+      ],
+      "value": 10000000
+    },
+    "oil_chunk_threshold": {
+      "comment": [
+        "Oil chunk threshold.",
+        "Default: 4000000",
+        "Range: > 0"
+      ],
+      "value": 4000000
+    },
+    "disable_normal_oil_chunks": {
+      "comment": "Disable normal oil chunks.",
+      "value": false
+    },
+    "disable_high_oil_chunks": {
+      "comment": "Disable high oil chunks.",
+      "value": false
+    },
+    "normal_oil_chunk_multiplier": {
+      "comment": [
+        "Normal oil chunk oil amount multiplier.",
+        "Default: 1.3",
+        "Range: 0.0 ~ 3.4028235E38"
+      ],
+      "value": 1.3
+    },
+    "high_oil_chunk_multiplier": {
+      "comment": [
+        "High oil chunk oil amount multiplier.",
+        "Default: 2.0",
+        "Range: 0.0 ~ 3.4028235E38"
+      ],
+      "value": 2.0
+    },
+    "oil_chunk_map_scale": {
+      "comment": [
+        "Oil chunk map scale.",
+        "Default: 1.0",
+        "Range: 0.0 ~ 3.4028235E38"
+      ],
+      "value": 1.0
+    },
+    "max_oil_scanner_level": {
+      "comment": [
+        "Max Oil Scanner level.",
+        "Default: 10000",
+        "Range: > 0"
+      ],
+      "value": 10000
+    }
+  },
+  "machines": {
+    "comment": "Machines",
+    "max_oil_barrel_width": {
+      "comment": [
+        "Maximum width of Oil Barrels.",
+        "Default: 3",
+        "Range: 1 ~ 16"
+      ],
+      "value": 3
+    },
+    "max_oil_barrel_length_per_width": {
+      "comment": [
+        "Maximum Oil Barrel length for each unit of width.",
+        "Default: 4",
+        "Range: 1 ~ 16"
+      ],
+      "value": 4
+    },
+    "canister_can_be_filled_by_spouts": {
+      "comment": "Whether Canisters can be filled by Spouts.",
+      "value": true
+    },
+    "combustibles_blow_up": {
+      "comment": "Whether combustible fluids explode when set on fire.",
+      "value": true
+    },
+    "distillation_tower_minimum_height": {
+      "comment": [
+        "Minimum height of the Distillation Tower required to process recipes.",
+        "Default: 3",
+        "Range: 2 ~ 7"
+      ],
+      "value": 3
+    }
+  }
+}

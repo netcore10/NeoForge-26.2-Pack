@@ -1,0 +1,14 @@
+name = "NeoForge 26.2"
+author = "netcore10"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "8fdaecfe1c6967f945c2d2f159f18c411750910beb6548bb769bcce0b6826835"
+
+[versions]
+fabric = "0.19.5"
+minecraft = "26.2"
+neoforge = "26.2.0.93"

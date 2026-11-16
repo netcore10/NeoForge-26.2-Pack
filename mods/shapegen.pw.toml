@@ -1,0 +1,13 @@
+name = "ShapeGen"
+filename = "shapegen-neoforge-1.0.0+26.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/zpVeL3sB/versions/k2hLVFps/shapegen-neoforge-1.0.0%2B26.2.jar"
+hash-format = "sha512"
+hash = "b68c6727320e70571123a7b4d555b4f9d908b0b001d06afed29722550c47afe7d2b98d1a1f796ff33ad48eb992aa7496b8df3b16b43a01756c6bd60a6b964554"
+
+[update]
+[update.modrinth]
+mod-id = "zpVeL3sB"
+version = "k2hLVFps"

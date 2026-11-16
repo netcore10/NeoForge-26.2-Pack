@@ -1,0 +1,54 @@
+#Generate distant terrain with Turbo for Distant Horizons instead of the Distant Horizons generator.
+enabled = true
+#Worker threads of the generator, 0 = two thirds of the CPU cores.
+#One LOD tile is split across all of them. Takes effect after a game restart.
+# Default: 0
+# Range: 0 ~ 64
+threads = 0
+#Let caves shape the height of LOD columns up to 4 blocks wide everywhere, as they do at cell corners.
+#Every column already has its own height; this changes few of them and costs about twice the time.
+full_resolution = false
+#Add approximate tree canopies to forests, so they are not bald until real chunks load.
+fake_trees = true
+#On detailed LODs near the player, replay the game's own tree placement: most trees stand where and as
+#they will in the real world. Otherwise (and farther away) trees are approximate. Needs fake_trees.
+real_trees = true
+#Put grass and the biome's flowers on generated distant ground. Distant Horizons shows them as a tint of
+#the ground, so meadows and flower fields look like they do up close.
+ground_cover = true
+#Cover generated distant ground with the world's own surface rules (also those of data packs and mods):
+#gravel shores, calcite, coarse dirt, powder snow, badlands bands and hoodoos, icebergs - like up close.
+#Off: one typical block per biome, a little faster.
+vanilla_surface = true
+#Follow the Distant Horizons generator plan instead of switching it to 'surface only'. With its default plan
+#('surface then chunks') detailed terrain near you is first drawn fast by this mod, then Distant Horizons
+#replaces it with real chunk generation (every feature, slower, uses more CPU). Off: everything stays fast.
+#Singleplayer and servers with Distant Horizons; clients that generate the distance themselves stay fast.
+real_chunks_nearby = false
+#Chunks around you that get the world's real terrain in the background: caves, ores on cliffs, trees and
+#plants. Runs while the generator has nothing else to do, waits while the server is busy or you move fast.
+#Chunks inside your render distance are real anyway, so a radius below it does nothing. 0 = off. Singleplayer.
+# Default: 16
+# Range: 0 ~ 256
+exact_radius = 16
+#The same on a dedicated server with Distant Horizons, around every player online. 0 = off: it takes
+#CPU from the server, and thread priorities do nothing on most Linux hosts.
+# Default: 0
+# Range: 0 ~ 256
+exact_radius_server = 0
+#Build the world's structures on distant terrain: villages, outposts, temples, mansions, shipwrecks,
+#ruined portals and structures of mods, where and as the game will build them. Underground structures
+#are left out. Shown up to 16 blocks per LOD column.
+structures = true
+#Client: when Distant Horizons tints the ground with the plants on it, blend their colour in softly instead
+#of painting the whole block (a poppy no longer turns a grass block red). Also for terrain from real chunks.
+#Takes effect for LODs built after the change (re-enter the world).
+soft_plant_colors = true
+#Server without Distant Horizons: send players with this mod the world seed and generation settings, so
+#their client generates distant terrain itself. Turn off if players must not know the seed. A server with
+#Distant Horizons never sends them: it sends the distant terrain.
+share_worldgen = true
+#Dimensions whose distant terrain this mod leaves to the Distant Horizons generator, by id, for example
+#["minecraft:the_end", "twilightforest:twilight_forest"]. That generator then draws its rough surface; for
+#real chunks turn on real_chunks_nearby too. Applies to terrain generated from then on.
+excluded_dimensions = []

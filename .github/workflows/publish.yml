@@ -1,0 +1,39 @@
+name: Publish pack
+
+# Players' Prism instances read the pack from GitHub Pages. This copies the pack there with the
+# Fabric loader line removed: it's only listed so packwiz can find Fabric mods (run through
+# Sinytra Connector), and packwiz-installer would otherwise add the Fabric loader to Prism.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build player copy
+        run: |
+          mkdir site
+          rsync -a --exclude .git --exclude .github --exclude site ./ site/
+          sed -i '/^fabric = /d' site/pack.toml
+          touch site/.nojekyll
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deploy
+        uses: actions/deploy-pages@v4

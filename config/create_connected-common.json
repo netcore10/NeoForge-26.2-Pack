@@ -1,0 +1,141 @@
+{
+  "migrateCopycatsOnBlockUpdate": {
+    "comment": "Migrate copycats to Create: Copycats+ when they receive a block update",
+    "value": true
+  },
+  "migrateCopycatsOnInitialize": {
+    "comment": "Migrate copycats to Create: Copycats+ when their block entities are initialized",
+    "value": true
+  },
+  "features": {
+    "comment": "Enable/disable features. Values on server override clients",
+    "kinetic_bridge": {
+      "value": true
+    },
+    "fluid_vessel": {
+      "value": true
+    },
+    "cross_connector": {
+      "value": true
+    },
+    "item_silo": {
+      "value": true
+    },
+    "inverted_clutch": {
+      "value": true
+    },
+    "empty_fan_catalyst": {
+      "value": true
+    },
+    "parallel_gearbox": {
+      "value": true
+    },
+    "redstone_link_wildcard": {
+      "value": true
+    },
+    "kinetic_battery": {
+      "value": true
+    },
+    "inventory_access_port": {
+      "value": true
+    },
+    "centrifugal_clutch": {
+      "value": true
+    },
+    "copycat_slab": {
+      "value": true
+    },
+    "brass_chute": {
+      "value": true
+    },
+    "overstress_clutch": {
+      "value": true
+    },
+    "brake": {
+      "value": true
+    },
+    "copycat_block": {
+      "value": true
+    },
+    "copycat_fence_gate": {
+      "value": true
+    },
+    "copycat_stairs": {
+      "value": true
+    },
+    "large_crank_wheel": {
+      "value": true
+    },
+    "brass_gearbox": {
+      "value": true
+    },
+    "copycat_vertical_step": {
+      "value": true
+    },
+    "copycat_wall": {
+      "value": true
+    },
+    "six_way_gearbox": {
+      "value": true
+    },
+    "crank_wheel": {
+      "value": true
+    },
+    "encased_chain_cogwheel": {
+      "value": true
+    },
+    "sequenced_pulse_generator": {
+      "value": true
+    },
+    "freewheel_clutch": {
+      "value": true
+    },
+    "dashboard": {
+      "value": true
+    },
+    "shear_pin": {
+      "value": true
+    },
+    "inverted_gearshift": {
+      "value": true
+    },
+    "linked_transmitter": {
+      "value": true
+    },
+    "copycat_beam": {
+      "value": true
+    },
+    "copycat_board": {
+      "value": true
+    },
+    "inventory_bridge": {
+      "value": true
+    },
+    "copycat_fence": {
+      "value": true
+    }
+  },
+  "feature_categories": {
+    "comment": "Enable/disable categories of features. Disabling a category hides all related features. Values on server override clients",
+    "kinetic": {
+      "comment": "All kinetic components, such as gearboxes and crank wheels",
+      "value": true
+    },
+    "redstone": {
+      "comment": "All redstone components, such as linked transmitter and sequenced pulse generator",
+      "value": true
+    },
+    "logistics": {
+      "comment": "All components related to item and fluid transport",
+      "value": true
+    },
+    "copycats": {
+      "comment": "All copycats (Install Create: Copycats+ to upgrade)",
+      "value": true
+    },
+    "palette": {
+      "comment": "All building palette blocks",
+      "value": true
+    }
+  }
+}

@@ -1,0 +1,8 @@
+name = "ParCool 26.2"
+filename = "ParCool-26.2-3.4.3.3-NF.jar"
+side = "both"
+
+[download]
+url = "https://github.com/netcore10/ParCool/releases/download/v3.4.3.3-26.2/ParCool-26.2-3.4.3.3-NF.jar"
+hash-format = "sha256"
+hash = "43dd70d599a56ad0e05abae220bb062e57661f6fef9296f92416e447236a4bd8"

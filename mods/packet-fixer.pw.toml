@@ -1,0 +1,13 @@
+name = "Packet Fixer"
+filename = "PacketFixer-neoforge-3.3.6.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/c7m1mi73/versions/p904LRVx/PacketFixer-neoforge-3.3.6.jar"
+hash-format = "sha512"
+hash = "ed515e9b909ec3f3098703d3008cdc5de251cf0e9d6272688b53d6c1af90eddca6302bd384ec4da64d99ffa9d72f503c652def631073f8f2e0688f0b09f3f2d2"
+
+[update]
+[update.modrinth]
+mod-id = "c7m1mi73"
+version = "p904LRVx"

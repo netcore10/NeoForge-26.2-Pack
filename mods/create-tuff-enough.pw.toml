@@ -1,0 +1,13 @@
+name = "Create: Tuff Enough"
+filename = "tuffenough-1.2.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/4xloSsBS/versions/w3WOGOmk/tuffenough-1.2.0.jar"
+hash-format = "sha512"
+hash = "1265d0c0178469962baf5dd9c43a18dd0ff93feefdf5975d8d46cd0891d108fea0b832a47a822eecef0a28da99dcac91c1c8ff094f923c82e7c3746dad95de1d"
+
+[update]
+[update.modrinth]
+mod-id = "4xloSsBS"
+version = "w3WOGOmk"

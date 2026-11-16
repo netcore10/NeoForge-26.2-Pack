@@ -1,0 +1,13 @@
+name = "Argus"
+filename = "argus-neoforge-mc26.2-0.9.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/viF0ufHN/versions/GN0UQUq8/argus-neoforge-mc26.2-0.9.1.jar"
+hash-format = "sha512"
+hash = "984491fb3c15903f39484ad629633fc05ed0c83af521a2f6d23867a7591f761525b7a77bb16d0cfc6cbf63025c1509b76a8b112fab370a0a969dcddb37fa979d"
+
+[update]
+[update.modrinth]
+mod-id = "viF0ufHN"
+version = "GN0UQUq8"

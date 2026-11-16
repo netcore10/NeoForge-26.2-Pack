@@ -1,0 +1,106 @@
+{
+  "schematicsNestingDepth": {
+    "comment": [
+      "Number of sub-folders allowed for schematics",
+      "Default: 5",
+      "Range: 0 ~ 20"
+    ],
+    "value": 5
+  },
+  "applicationRemainingItemFix": {
+    "comment": "Enable the fix that gives remaining items after manual application",
+    "value": true
+  },
+  "vesselBoilerStressMultiplier": {
+    "comment": [
+      "Modify the stress output when a Fluid Vessel is used as a boiler",
+      "Default: 0.8125",
+      "Range: 0.0 ~ 3.4028235E38"
+    ],
+    "value": 0.8125
+  },
+  "vesselHeatMultiplier": {
+    "comment": [
+      "Modify the heat level when a Fluid Vessel is used as a boiler",
+      "Default: 0.5",
+      "Range: 0.0 ~ 3.4028235E38"
+    ],
+    "value": 0.5
+  },
+  "vesselMaxLevel": {
+    "comment": [
+      "Limit the max boiler level achievable with a Fluid Vessel",
+      "Default: 18",
+      "Range: 0 ~ 18"
+    ],
+    "value": 18
+  },
+  "batteryDischargeRPM": {
+    "comment": [
+      "RPM of a Kinetic Battery when discharging",
+      "Default: 64",
+      "Range: 0 ~ 256"
+    ],
+    "value": 64
+  },
+  "batteryCapacity": {
+    "comment": [
+      "Max capacity of a Kinetic Battery in su-hours",
+      "Default: 512.0",
+      "Range: 0.0 ~ 8192.0"
+    ],
+    "value": 512.0
+  },
+  "batteryMinDischarge": {
+    "comment": [
+      "Minimum su consumption per tick of a discharging Kinetic Battery when powering belts",
+      "Default: 1.0",
+      "Range: 0.0 ~ 8192.0"
+    ],
+    "value": 1.0
+  },
+  "allowDualWildcardLink": {
+    "comment": "Allow Redstone Links to have wildcards in both slots [restart required]",
+    "value": false
+  },
+  "stressValues": {
+    "comment": "Fine tune the kinetic stats of individual components",
+    "v1": {
+      "impact": {
+        "comment": [
+          "[in Stress Units]",
+          "Configure the individual stress impact of mechanical blocks. Note that this cost is doubled for every speed increase it receives."
+        ],
+        "brass_gearbox": 0.0,
+        "centrifugal_clutch": 0.0,
+        "brake": 0.0,
+        "encased_chain_cogwheel": 0.0,
+        "kinetic_battery": 64.0,
+        "six_way_gearbox": 0.0,
+        "shear_pin": 0.0,
+        "parallel_gearbox": 0.0,
+        "inverted_gearshift": 0.0,
+        "freewheel_clutch": 0.0,
+        "overstress_clutch": 0.0,
+        "inverted_clutch": 0.0
+      },
+      "capacity": {
+        "comment": [
+          "[in Stress Units]",
+          "Configure how much stress a source can accommodate for."
+        ],
+        "crank_wheel": 8.0,
+        "kinetic_battery": 32.0,
+        "large_crank_wheel": 8.0
+      },
+      "brakeActiveStress": {
+        "comment": [
+          "Stress impact of a powered brake [in Stress Units]",
+          "Default: 16384.0",
+          "Range: -Infinity ~ Infinity"
+        ],
+        "value": 16384.0
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "customTrackSharing": true,
+  "maximumTrackMiB": 64,
+  "cacheMiB": 2048,
+  "cacheEntries": 512,
+  "maximumConcurrentTransfers": 8,
+  "uploadKiBPerSecond": 1024,
+  "audibleRadiusBlocks": 64,
+  "internetRadio": true
+}

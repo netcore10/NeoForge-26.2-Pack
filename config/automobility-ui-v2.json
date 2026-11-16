@@ -1,0 +1,35 @@
+{
+  "version": 3,
+  "legacyLayout": false,
+  "basic": {
+    "enabled": true,
+    "scalePercent": 100,
+    "position": "BOTTOM_LEFT",
+    "cameraDistanceBlocks": 10
+  },
+  "previous": {
+    "enabled": true,
+    "scalePercent": 100,
+    "position": "TOP_LEFT",
+    "cameraDistanceBlocks": 4
+  },
+  "panel": {
+    "anchor": "BOTTOM_LEFT",
+    "x": 8,
+    "y": 58
+  },
+  "hints": {
+    "anchor": "BOTTOM_LEFT",
+    "x": 8,
+    "y": 105
+  },
+  "hintMode": "AUTO",
+  "reservation": {
+    "enabled": false,
+    "x": 750,
+    "y": 20,
+    "width": 230,
+    "height": 300
+  },
+  "energyEnabled": true
+}

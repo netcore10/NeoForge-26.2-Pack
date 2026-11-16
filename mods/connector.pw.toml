@@ -1,0 +1,13 @@
+name = "Sinytra Connector"
+filename = "connector-3.1.0-beta.4+26.2-full.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/u58R1TMW/versions/UTJVNLyr/connector-3.1.0-beta.4%2B26.2-full.jar"
+hash-format = "sha512"
+hash = "7377d33a588f2e0df22a3e2fd4bcbca778aa6aff3fa79cbe6f3d455e206da20b395c02259e41208869c73ff6625f1de9ff5eac365875c2d98735d9782ed1e2e3"
+
+[update]
+[update.modrinth]
+mod-id = "u58R1TMW"
+version = "UTJVNLyr"

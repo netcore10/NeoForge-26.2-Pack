@@ -1,0 +1,13 @@
+name = "Haywen Resources"
+filename = "Haywen_SMP_Resources.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/LkuuACkT/versions/MrsVdKTy/Haywen_SMP_Resources.zip"
+hash-format = "sha512"
+hash = "ea4d10842e547d862366564d9bff50b985b343bc33de151aa2faef9bff49bb6a948b2e0c5fab4f5a1f99232f366c9f8f9bc05318d41011bed6709929d78eb716"
+
+[update]
+[update.modrinth]
+mod-id = "LkuuACkT"
+version = "MrsVdKTy"

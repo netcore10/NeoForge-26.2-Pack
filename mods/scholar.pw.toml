@@ -1,0 +1,13 @@
+name = "Scholar"
+filename = "scholar-neoforge-26.2-1.2.10.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/fX4dIQCo/versions/IQmbZAXI/scholar-neoforge-26.2-1.2.10.jar"
+hash-format = "sha512"
+hash = "10fd1aecf85f856fe458987b6f132ceae1fabd0ede43863911a0ef0efea5eea52a5e9cd6c448cbf0a74fbb750f4972de98d9d878605170bd4dc17c91f43852d9"
+
+[update]
+[update.modrinth]
+mod-id = "fX4dIQCo"
+version = "IQmbZAXI"
