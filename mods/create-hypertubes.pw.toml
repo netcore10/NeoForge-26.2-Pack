@@ -1,0 +1,8 @@
+name = "Create Hypertubes (26.2 Fly port)"
+filename = "create_hypertube-0.6.0+fly-NEOFORGE-CREATEFLY.jar"
+side = "both"
+
+[download]
+url = "https://github.com/netcore10/CreateHypertubes/releases/download/v0.6.0-fly-26.2/create_hypertube-0.6.0%2Bfly-NEOFORGE-CREATEFLY.jar"
+hash-format = "sha256"
+hash = "7658cf4706fef1511922fc63437f0b6098d93eb78ca775637201fb8ff9ed5794"

@@ -505,6 +505,10 @@ file = "config/wover/main.json"
 hash = "b1a1b916b42cf5c653e6a347069d88562865d250c112367e07af2a6bc22e879a"
 
 [[files]]
+file = "datapacks/Farmers Delight Seasons.zip"
+hash = "1194e8834235af793dea7d5fac27c8d9bb1e8142173ef671f58088d0bda616c1"
+
+[[files]]
 file = "mods/almanac.pw.toml"
 hash = "d8d5c9f5ff85ec990c0614a593411e063602ae364e16712831718e7a1fe68ec7"
 metafile = true
@@ -557,6 +561,11 @@ metafile = true
 [[files]]
 file = "mods/betternether.pw.toml"
 hash = "9b7fe8a994d6ff5f1d29e1be363ddf8031f3b2fb0f8f57fcce84a31b40c9e2ee"
+metafile = true
+
+[[files]]
+file = "mods/chisels-and-bits.pw.toml"
+hash = "a19d5251acb39dd36de28b5d6f013404c48b6d637b2275ece6eac653129ca468"
 metafile = true
 
 [[files]]
@@ -655,6 +664,11 @@ hash = "ec72f8fbe09a9371e16b8aff5cbab4164f4eb0cfebb474ec39974631f9e1a2af"
 metafile = true
 
 [[files]]
+file = "mods/create-hypertubes.pw.toml"
+hash = "d97b67c6268caa45e1be134ceef20be3ec6e725a7daa20a90b08741a455ca36c"
+metafile = true
+
+[[files]]
 file = "mods/create-tuff-enough.pw.toml"
 hash = "0035cfc24d0acf481258a07bde8b6d88c4f64f9a4c5a0a2a1c92c57bd33489b4"
 metafile = true
@@ -665,12 +679,18 @@ hash = "f6b612dc91e7c4c210383b4f73102f7ca08d6fcb909be733581f8d97321f8bd6"
 metafile = true
 
 [[files]]
-file = "mods/create_hypertube-0.6.0+fly-NEOFORGE-CREATEFLY.jar"
-hash = "7658cf4706fef1511922fc63437f0b6098d93eb78ca775637201fb8ff9ed5794"
+file = "mods/creativecore.pw.toml"
+hash = "d633c46e3c101e72ef02664dbf7a121569dd04eadf437cfd524037b1d513b8e5"
+metafile = true
 
 [[files]]
 file = "mods/custom-player-models.pw.toml"
 hash = "69be593066e1cd134cc4d02b24529214b607d07e3ead55b43174e86a2b675f39"
+metafile = true
+
+[[files]]
+file = "mods/distant-horizons-seedgen.pw.toml"
+hash = "41b64dde64e8881168d4c3ea55cbd04cbd276d16d5c8d74015f8b4c7f65a4f90"
 metafile = true
 
 [[files]]
@@ -681,6 +701,11 @@ metafile = true
 [[files]]
 file = "mods/dndlns-automobility-hitboxes-fix.pw.toml"
 hash = "7513ad36bb61f7cb781f779f62b891bce062ba738aaf3616634edb61d673cb54"
+metafile = true
+
+[[files]]
+file = "mods/ecliptic-seasons.pw.toml"
+hash = "884f4cb8ccd06c4497c42863883e210c0c0e569c9e34fc1404075f2e03956df3"
 metafile = true
 
 [[files]]
@@ -751,6 +776,11 @@ metafile = true
 [[files]]
 file = "mods/fzzy-config.pw.toml"
 hash = "e19a71e2b6e363f76fbbb9fc77878044b7dddd62d11eb408e695e1194f672adf"
+metafile = true
+
+[[files]]
+file = "mods/global-packs.pw.toml"
+hash = "15462ed8ce7899a02bed1649a75445860f49853cc5a64a11a5b96976492c9250"
 metafile = true
 
 [[files]]
@@ -854,6 +884,11 @@ hash = "550de601a10cf6540b62979c5c4679050e1fc8549b7b34cb4794c70ab3356b56"
 metafile = true
 
 [[files]]
+file = "mods/rustling-leaves.pw.toml"
+hash = "d094a34a652a86f4ef282dbf81a3eb8c638e9ac4910af95c541fc5094ef5fee4"
+metafile = true
+
+[[files]]
 file = "mods/scholar.pw.toml"
 hash = "ccb1e3313a23aeddde2eca91aedced64499ebe57651f18bc9690710d79d19ecd"
 metafile = true
@@ -861,6 +896,11 @@ metafile = true
 [[files]]
 file = "mods/searchables.pw.toml"
 hash = "75a110a51b4d20571338b3b079888967236f99a745621a34cb97bf52770cfb66"
+metafile = true
+
+[[files]]
+file = "mods/serene-seasons-api-stub-ecliptic-seasons-bridge.pw.toml"
+hash = "d0e07efd1792ebecf23e99135f87a0694c6861104195b55a5e6012268034c768"
 metafile = true
 
 [[files]]
