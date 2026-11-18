@@ -1,6 +1,6 @@
 filename = 'nerolandcore-neoforge-26.2-1.20.0.jar'
 name = 'Neroland Core'
-side = ''
+side = 'both'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '26.2' ]
@@ -11,7 +11,6 @@ x-prismlauncher-version-number = 'NerolandCore 1.20.0 - NeoForge 26.2'
 hash = '86f7b433e78ff4fad6cec09584a146810713294c'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
 
 [update.curseforge]
 file-id = 9665082

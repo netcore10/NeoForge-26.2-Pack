@@ -1,6 +1,6 @@
 filename = 'nerospace-neoforge-26.2-2.3.1.jar'
 name = 'NeroSpace'
-side = ''
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '26.2' ]
 x-prismlauncher-release-type = 'release'
@@ -10,7 +10,6 @@ x-prismlauncher-version-number = 'Nerospace 2.3.1 - NeoForge 26.2'
 hash = '23d61a794dba280e6dad87207c3efcc3001ac43d'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
 
 [update.curseforge]
 file-id = 9665701
