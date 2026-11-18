@@ -1,6 +1,6 @@
 filename = 'ecliptic-seasons-serene-api-bridge-26.x-universal-26.1.2.0.7-patch5-1.jar'
 name = 'Serene Seasons API Stub (Ecliptic Seasons Bridge)'
-side = ''
+side = 'both'
 x-prismlauncher-loaders = [ 'neoforge', 'fabric' ]
 x-prismlauncher-mc-versions = [ '26.1', '26.1.1', '26.1.2', '26.2', '26.3' ]
 x-prismlauncher-release-type = 'release'
@@ -10,7 +10,6 @@ x-prismlauncher-version-number = 'ecliptic-seasons-serene-api-bridge-26.x-univer
 hash = 'a5b562d19d49e73f8ce277e1a9ba7a7481cf53ef'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
-url = ''
 
 [update.curseforge]
 file-id = 9605670

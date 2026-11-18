@@ -509,6 +509,11 @@ file = "datapacks/Farmers Delight Seasons.zip"
 hash = "1194e8834235af793dea7d5fac27c8d9bb1e8142173ef671f58088d0bda616c1"
 
 [[files]]
+file = "mods/ai-improvements.pw.toml"
+hash = "602b5234c36769e6adb39dd17d375bc5028e0df9187bf7516dbc1e8365325637"
+metafile = true
+
+[[files]]
 file = "mods/almanac.pw.toml"
 hash = "d8d5c9f5ff85ec990c0614a593411e063602ae364e16712831718e7a1fe68ec7"
 metafile = true
@@ -561,6 +566,11 @@ metafile = true
 [[files]]
 file = "mods/betternether.pw.toml"
 hash = "9b7fe8a994d6ff5f1d29e1be363ddf8031f3b2fb0f8f57fcce84a31b40c9e2ee"
+metafile = true
+
+[[files]]
+file = "mods/biomes-o-plenty.pw.toml"
+hash = "c4eac8b9d0bdbcad98e85f40d7d486bf1de6f8049ec1fd870e30fc98bd66ab8c"
 metafile = true
 
 [[files]]
@@ -779,6 +789,11 @@ hash = "e19a71e2b6e363f76fbbb9fc77878044b7dddd62d11eb408e695e1194f672adf"
 metafile = true
 
 [[files]]
+file = "mods/glitchcore.pw.toml"
+hash = "f0686025726f321113e26fc5290133b0183dfa921c020aa767ea6ad52471d9c4"
+metafile = true
+
+[[files]]
 file = "mods/global-packs.pw.toml"
 hash = "15462ed8ce7899a02bed1649a75445860f49853cc5a64a11a5b96976492c9250"
 metafile = true
@@ -849,6 +864,16 @@ hash = "0dd82c05c9b324e87edf49ced73045f8c43d29d4f8474e7827a98f22a33ab8ae"
 metafile = true
 
 [[files]]
+file = "mods/neroland-core.pw.toml"
+hash = "58e1a24d874e694fe560c4e75e5db8d6db69472b98bd4c38f22330f1c3b54c73"
+metafile = true
+
+[[files]]
+file = "mods/nerospace.pw.toml"
+hash = "d03fc249d9bff3438bc1e107f648a52ee5323649322224f69c85b89b33bf03dc"
+metafile = true
+
+[[files]]
 file = "mods/offgrid.pw.toml"
 hash = "a0a24f810398243a42aaf3f8057f7c866236fa8a63256fedaec97aea11e06bd4"
 metafile = true
@@ -885,7 +910,7 @@ metafile = true
 
 [[files]]
 file = "mods/rustling-leaves.pw.toml"
-hash = "d094a34a652a86f4ef282dbf81a3eb8c638e9ac4910af95c541fc5094ef5fee4"
+hash = "42c0e85254c91fe4fafad56841ac1e6792ab5926c5f223067d42f5b02ab6edac"
 metafile = true
 
 [[files]]
@@ -900,7 +925,7 @@ metafile = true
 
 [[files]]
 file = "mods/serene-seasons-api-stub-ecliptic-seasons-bridge.pw.toml"
-hash = "d0e07efd1792ebecf23e99135f87a0694c6861104195b55a5e6012268034c768"
+hash = "df38646a8b5e562795e7c32c59fd75d89fd989111fc615192453430eeb103122"
 metafile = true
 
 [[files]]
@@ -916,6 +941,11 @@ metafile = true
 [[files]]
 file = "mods/sodium.pw.toml"
 hash = "4872e18eafd42dc75a9af8af495d65e83fbba3f56db151a5cf42de9d2543f727"
+metafile = true
+
+[[files]]
+file = "mods/terrablender.pw.toml"
+hash = "17d2e1294d919ad8195170b1324b9a3af8b3247223540fa06bc875fdbed836ee"
 metafile = true
 
 [[files]]
